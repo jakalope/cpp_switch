@@ -63,6 +63,7 @@ const char* toString($typename value) {
   switch (value) {
 $case
   }
+  return "";
 }
 
 std::ostream& operator<<(std::ostream& out, $typename value) {
